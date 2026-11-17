@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/user/2
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "name": "Keyan",
+        "email": "testgmail@gmail.com",
+        "age": 21
+    }
+order: 4000

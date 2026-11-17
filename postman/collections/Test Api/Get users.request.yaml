@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/user
+method: POST
+body:
+  type: json
+  content: "{\r\n \"name\": \r\n\r\n}"
+order: 3991

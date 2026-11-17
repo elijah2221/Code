@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/user/2
+method: PATCH
+body:
+  type: json
+  content: "{\r\n    \"name\": \"KEYAN\"\r\n}"
+order: 5000

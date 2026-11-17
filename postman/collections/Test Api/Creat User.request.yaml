@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/user
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "keyan",
+        "email": "firsttest@gmail.com",
+        "age": 124
+    }
+order: 3987
